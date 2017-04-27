@@ -1,0 +1,31 @@
+##Comandos basicos##
+
+cd <nombre carpeta>: moverme a una carpeta cd micarpeta
+
+ls: ver lo que esta dentro de carpeta
+
+mkdir <nombre carpeta>: crear una carpeta, Ejemplo mkdir carpetaNueva
+
+pwd : ver en que carpeta estoy , devolvera algo como C:\users\patricio
+
+##Comandos Básicos GIT##
+
+git add <nombre archivo> agrega archivo para un commit, se puede usar varias veces
+
+git commit -m"el comentario del commit" "encapsula" los cambios en un commit, al cual le das un comentario, acá estaran todos los cambios agregados con git add
+
+git push origin master : sube los cambios a github (a la rama Master)
+
+git pull origin master : descarga los cambios desd github, se usa cuando hay mas de una persona trabajando en el mismo repo
+
+##Comandos con Ramas##
+
+git checkout <nombre Rama> : Cambiar de rama
+
+git checkout -b <nombre Rama> : crea una nueva rama
+
+git merge <nombre Rama> : junta ramas, trae los cambios de la rama indicada a la rama en donde te encuentras
+
+git push origin <nombre Rama>: para subir cambios a una rama en especifico
+
+git pull origin <nombre Rama> : para descargar cambios de una rama en especifico
